@@ -1404,20 +1404,20 @@ section.lazy-placeholder:after {
 .cid-rFmYeCFVHo {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/bukh-uchyot-1-1074x739.jpeg");
+  background-image: url("../../../assets/images/mbr-1920x1088.jpeg");
 }
 .cid-rFmYeCFVHo .testimonial-text {
   font-style: italic;
-  color: #1c09fe;
+  color: #ff0802;
   font-weight: 300;
   text-align: center;
 }
 .cid-rFmYeCFVHo .mbr-author-name {
   font-weight: bold;
-  color: #ff0802;
+  color: #1c09fe;
 }
 .cid-rFmYeCFVHo .mbr-author-desc {
-  color: #ff140d;
+  color: #1c09fe;
 }
 @media (max-width: 991px) {
   .cid-rFmYeCFVHo .mbr-figure,
