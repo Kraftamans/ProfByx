@@ -914,6 +914,45 @@ section.lazy-placeholder:after {
 .cid-rEYWicC5Ur H3 {
   color: #ff7f9f;
 }
+.cid-rFmGeIedjW {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #c0f995;
+}
+.cid-rFmGeIedjW .counter-container {
+  color: #767676;
+}
+.cid-rFmGeIedjW .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rFmGeIedjW .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rFmGeIedjW .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rFmGeIedjW .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #ff3366;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cid-rFmGeIedjW .mbr-text {
+  text-align: left;
+}
 .cid-rEYWiS1oPE .navbar {
   padding: .5rem 0;
   background: #7fd2ff;
@@ -1387,45 +1426,6 @@ section.lazy-placeholder:after {
     width: auto;
     margin: auto;
   }
-}
-.cid-rFmGeIedjW {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #c0f995;
-}
-.cid-rFmGeIedjW .counter-container {
-  color: #767676;
-}
-.cid-rFmGeIedjW .counter-container ol {
-  margin-bottom: 0;
-  counter-reset: myCounter;
-}
-.cid-rFmGeIedjW .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-rFmGeIedjW .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-}
-.cid-rFmGeIedjW .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #ff3366;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.cid-rFmGeIedjW .mbr-text {
-  text-align: left;
 }
 .cid-rFmFOREztq {
   background-image: url("../../../assets/images/58300-640x427.jpg");
